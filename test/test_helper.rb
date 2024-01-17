@@ -4,7 +4,7 @@ require 'simplecov'
 SimpleCov.start
 
 $LOAD_PATH.unshift File.expand_path('../lib', __dir__)
-require 'odbc_adapter'
+require 'odbc_adapter_rails7'
 
 require 'minitest/autorun'
 require 'pry'

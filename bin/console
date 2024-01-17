@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
-require 'odbc_adapter'
+require 'odbc_adapter_rails7'
 
 options = { adapter: 'odbc' }
 options[:dsn]      = ENV['DSN']      if ENV['DSN']

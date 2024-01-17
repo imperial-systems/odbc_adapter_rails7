@@ -4,17 +4,17 @@ require 'active_record'
 require 'odbc'
 require 'odbc_utf8'
 
-require 'odbc_adapter/database_limits'
-require 'odbc_adapter/database_statements'
-require 'odbc_adapter/error'
-require 'odbc_adapter/quoting'
-require 'odbc_adapter/schema_statements'
+require 'odbc_adapter_rails7/database_limits'
+require 'odbc_adapter_rails7/database_statements'
+require 'odbc_adapter_rails7/error'
+require 'odbc_adapter_rails7/quoting'
+require 'odbc_adapter_rails7/schema_statements'
 
-require 'odbc_adapter/column'
-require 'odbc_adapter/column_metadata'
-require 'odbc_adapter/database_metadata'
-require 'odbc_adapter/registry'
-require 'odbc_adapter/version'
+require 'odbc_adapter_rails7/column'
+require 'odbc_adapter_rails7/column_metadata'
+require 'odbc_adapter_rails7/database_metadata'
+require 'odbc_adapter_rails7/registry'
+require 'odbc_adapter_rails7/version'
 
 module ActiveRecord
   class Base

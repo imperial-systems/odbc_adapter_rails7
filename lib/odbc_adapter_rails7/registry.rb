@@ -30,7 +30,7 @@ module ODBCAdapter
     def normalize_adapter(adapter)
       return adapter unless adapter.is_a?(Symbol)
 
-      require "odbc_adapter/adapters/#{adapter.downcase}_odbc_adapter"
+      require "odbc_adapter_rails7/adapters/#{adapter.downcase}_odbc_adapter"
       Adapters.const_get(:"#{adapter}ODBCAdapter")
     end
   end

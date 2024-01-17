@@ -18,7 +18,7 @@ class RegistryTest < Minitest::Test
 
   # rubocop:disable Lint/NestedMethodDefinition
   def register_foobar(registry)
-    require File.join('odbc_adapter', 'adapters', 'mysql_odbc_adapter')
+    require File.join('odbc_adapter_rails7', 'adapters', 'mysql_odbc_adapter')
     registry.register(/foobar/, ODBCAdapter::Adapters::MySQLODBCAdapter) do
       def quoted_true
         'foobar'

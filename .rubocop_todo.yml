@@ -32,5 +32,5 @@ Metrics/PerceivedComplexity:
 Naming/MethodParameterName:
   Exclude:
     - 'lib/active_record/connection_adapters/odbc_adapter.rb'
-    - 'lib/odbc_adapter/adapters/mysql_odbc_adapter.rb'
-    - 'lib/odbc_adapter/adapters/postgresql_odbc_adapter.rb'
+    - 'lib/odbc_adapter_rails7/adapters/mysql_odbc_adapter.rb'
+    - 'lib/odbc_adapter_rails7/adapters/postgresql_odbc_adapter.rb'

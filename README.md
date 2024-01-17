@@ -13,7 +13,7 @@ Ensure you have the ODBC driver installed on your machine. You will also need th
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'odbc_adapter'
+gem 'odbc_adapter_rails7'
 ```
 
 And then execute:
@@ -22,7 +22,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install odbc_adapter
+    $ gem install odbc_adapter_rails7
 
 ## Usage
 
@@ -156,7 +156,7 @@ Possible mapping from chatgpt
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/localytics/odbc_adapter.
+Bug reports and pull requests are welcome on GitHub at https://github.com/imperial-systems/odbc_adapter_rails7.
 
 ## License
 
